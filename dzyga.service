@@ -1,0 +1,15 @@
+[Unit]
+Description=Dzyga
+After=network.target
+
+[Service]
+User=rpidrone
+Group=www-data
+WorkingDirectory=/home/rpidrone/FORPOST
+ExecStart=/home/rpidrone/FORPOST/dzyga
+Restart=always
+RestartSec=5
+User=root
+
+[Install]
+WantedBy=multi-user.target
