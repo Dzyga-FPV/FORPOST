@@ -1,3 +1,4 @@
+V1.5
 sudo apt install git
 cd ~/ && git clone --recursive https://github.com/stephendade/Rpanion-server.git
 cd ~/Rpanion-server/deploy/ && ./RasPi2-3-4-5-deploy.sh
