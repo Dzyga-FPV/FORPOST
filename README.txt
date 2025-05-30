@@ -27,7 +27,7 @@ RESULT:
 
 May 30 21:30:12 rpanion systemd[1]: Started dzyga.service - Dzyga.
 __________________________________________________________________________________
-CONFIGARATION
+
 
 WEB GUI is available at:
 rpi_local_ip:3000
