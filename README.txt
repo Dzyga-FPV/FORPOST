@@ -8,3 +8,19 @@ sudo cp dzyga.service /etc/systemd/system
 sudo systemctl daemon-reload
 sudo systemctl enable dzyga.service
 sudo systemctl start dzyga
+
+CHECK:
+sudo systemctl status dzyga
+
+RESULT:
+● dzyga.service - Dzyga
+     Loaded: loaded (/etc/systemd/system/dzyga.service; enabled; preset: enabled)
+     Active: active (running) since Fri 2025-05-30 21:30:12 EEST; 6s ago
+   Main PID: 1710 (dzyga)
+      Tasks: 2 (limit: 3921)
+        CPU: 414ms
+     CGroup: /system.slice/dzyga.service
+             ├─1710 /home/rpidrone/FORPOST/dzyga
+             └─1711 /home/rpidrone/FORPOST/dzyga
+
+May 30 21:30:12 rpanion systemd[1]: Started dzyga.service - Dzyga.
