@@ -1,4 +1,5 @@
-V1.5
+INSTALLATION
+
 sudo apt install git
 cd ~/ && git clone --recursive https://github.com/stephendade/Rpanion-server.git
 cd ~/Rpanion-server/deploy/ && ./RasPi2-3-4-5-deploy.sh
@@ -9,7 +10,8 @@ sudo systemctl daemon-reload
 sudo systemctl enable dzyga.service
 sudo systemctl start dzyga
 
-CHECK:
+_________________________________________________________________________________
+CHECK
 sudo systemctl status dzyga
 
 RESULT:
@@ -24,3 +26,11 @@ RESULT:
              └─1711 /home/rpidrone/FORPOST/dzyga
 
 May 30 21:30:12 rpanion systemd[1]: Started dzyga.service - Dzyga.
+__________________________________________________________________________________
+CONFIGARATION
+
+WEB GUI is available at:
+rpi_local_ip:3000
+
+login: admin
+pass: admin
